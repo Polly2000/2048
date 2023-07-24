@@ -78,7 +78,7 @@ async function moveRight() {
 }
 
 async function slideTiles(groupedCells) {
-  const promises = []; // будем ждать выполнения всех промисов, и только потом выполним код объединения ячеек (т.к. именно с этим проблемы)
+  const promises = [];
   groupedCells.forEach(group => slideTilesInGroup(group, promises));
 
   await Promise.all(promises);
