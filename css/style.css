@@ -52,6 +52,6 @@ body {
 @keyframes show {
   0% {
     opacity: .5;
-    transform: scale(0); /* плитка будет сжата до точки */
+    transform: scale(0);
   }
 }
