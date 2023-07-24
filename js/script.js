@@ -141,7 +141,7 @@ function canMove(groupedCells) {
 
 function canMoveInGroup(group) {
   return group.some((cell, index) => {
-    if (index === 0) { // самая верхняя ячейка, и выше ее ничего нет
+    if (index === 0) {
       return false;
     }
 
